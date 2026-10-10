@@ -1,0 +1,432 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "default"
+    },
+    "form_factor": {
+      "value": "按用户图片复刻恐龙椅子手机支架",
+      "source": "user"
+    },
+    "overall_height_mm": {
+      "value": 110,
+      "source": "default"
+    },
+    "overall_width_mm": {
+      "value": 80,
+      "source": "default"
+    },
+    "overall_depth_mm": {
+      "value": 68,
+      "source": "default"
+    },
+    "requested_dimensions": {
+      "value": "高度11左右，宽8左右，前后深度6.5左右",
+      "source": "user"
+    },
+    "unit_interpretation": {
+      "value": "用户尺寸按厘米解释",
+      "source": "default"
+    },
+    "appearance_reference": {
+      "value": "product/references/uploads/20261010T011511061Z-1-image.png",
+      "source": "user"
+    },
+    "base_board": {
+      "value": "none; purely mechanical",
+      "source": "default"
+    },
+    "material": {
+      "value": "PLA色彩展示；尚未指定打印工艺",
+      "source": "default"
+    },
+    "phone_support": {
+      "value": "两道横向座面圆底槽；默认适配约12 mm以内手机底边，实际机型待实物试放",
+      "source": "default"
+    },
+    "dinosaur_position": {
+      "value": "恐龙位于座面最后端平面，整体向右微调，左右整体居中，不与手机槽接触",
+      "source": "user"
+    },
+    "rear_platform_layout": {
+      "value": {
+        "footprint_to_last_groove_gap_mm": 12.136039,
+        "footprint_to_rear_flat_edge_gap_mm": 1.5,
+        "dinosaur_shift_back_mm": 2,
+        "keep_rear_platform_foot_positions": false
+      },
+      "source": "default"
+    },
+    "muzzle_shape": {
+      "value": "白色鼻嘴中间有轻微鼓起，上下及深度方向也鼓出；左右两端轮廓更圆润",
+      "source": "user"
+    },
+    "eye_adjustment": {
+      "value": "双眼在v20位置基础上升高2mm，保留自身右移5mm的横向位置、尺寸及间距",
+      "source": "user"
+    },
+    "face_refinement_defaults": {
+      "value": {
+        "muzzle_vertical_bulge_per_side_mm": 1.2369,
+        "muzzle_front_bulge_mm": 2.5,
+        "eyes_shift_left_mm": 1.2,
+        "eye_width_mm": 3.6,
+        "eye_height_mm": 4.4
+      },
+      "source": "default"
+    },
+    "muzzle_position": {
+      "value": "鼻嘴再向恐龙自身右侧移动一点（正面看向左）",
+      "source": "user"
+    },
+    "tail_shape": {
+      "value": "尾根饱满并逐渐收细；尾巴先略向下凹，再低幅向右上方舒展，尾尖圆润，整体曲线自然，给最后两枚背刺留出空间",
+      "source": "user"
+    },
+    "seventh_spine": {
+      "value": "尾巴上方第七枚背刺缩小",
+      "source": "user"
+    },
+    "tail_and_muzzle_defaults": {
+      "value": {
+        "muzzle_additional_left_shift_mm": 2,
+        "tail_root_radius_mm": 5.6,
+        "seventh_spine_scale": 0.7,
+        "spine_numbering": "从顶部第一枚绿色背刺往下数，不计奶白独角"
+      },
+      "source": "default"
+    },
+    "tail_curve_defaults": {
+      "value": {
+        "tail_mid_center_dip_mm": 1.3,
+        "tail_tip_local_height_mm": 8.5,
+        "last_two_spine_base_spacing_mm": 6,
+        "tail_spine_1_local_x_mm": 26,
+        "tail_spine_1_local_z_mm": 7.2,
+        "tail_spine_2_local_z_mm": 6.8,
+        "tail_reach_mm": 17,
+        "tail_tip_round_radius_mm": 1.6
+      },
+      "source": "default"
+    },
+    "muzzle_height_adjustment": {
+      "value": "白色鼻嘴保持当前压扁后的高度、鼻孔尺寸、宽度和下沿高度",
+      "source": "user"
+    },
+    "face_position_defaults": {
+      "value": {
+        "muzzle_height_mm": 25.011885,
+        "muzzle_additional_left_shift_mm": 3.5,
+        "muzzle_center_z_mm": 60.5059425,
+        "eye_additional_left_shift_mm": 1,
+        "eye_shift_down_mm": 1.5,
+        "nostril_radius_mm": 0.9,
+        "muzzle_width_mm": 49.35,
+        "eye_center_z_mm": 77.5,
+        "eye_shift_own_right_from_v19_mm": 5,
+        "eye_shift_down_from_v19_mm": 3,
+        "eye_raise_from_v20_mm": 2,
+        "muzzle_center_x_mm": -12.4125,
+        "muzzle_additional_own_right_shift_mm": 1,
+        "muzzle_lower_edge_z_mm": 48
+      },
+      "source": "default"
+    },
+    "dinosaur_body_outline": {
+      "value": "恐龙自身左侧脸部要更饱满圆润，保留腿根硬接折角；鼻嘴侧保留v17调整",
+      "source": "user"
+    },
+    "body_and_spine_defaults": {
+      "value": {
+        "outline_edge_rounding_mm": 1,
+        "side_spine_additional_inset_mm": 1.2,
+        "top_spine_local_height_mm": 56.5,
+        "second_spine_local_height_mm": 52.8,
+        "upper_outline_curve": "恐龙自身左侧头顶至腿根采用一条连续外凸弧线，更饱满圆润；鼻嘴侧保留v17轮廓",
+        "crown_horizontal_radius_mm": 25.2,
+        "crown_vertical_radius_mm": 18,
+        "muzzle_side_shoulder_inset_mm": 1.5,
+        "dino_own_left_cheek_fullness_mm": 3.8
+      },
+      "source": "default"
+    },
+    "dino_outline_edge_radius_mm": {
+      "value": 1,
+      "source": "default"
+    },
+    "muzzle_backing_defaults": {
+      "value": {
+        "width_mm": 53.35,
+        "height_mm": 30.011885,
+        "thickness_mm": 13,
+        "center_world_x_mm": -11.4125,
+        "center_world_z_mm": 61.16415,
+        "bottom_world_z_mm": 45.5,
+        "seat_vertical_gap_mm": 4.5
+      },
+      "source": "default"
+    },
+    "version_restore": {
+      "value": "完整恢复v13版本，并以新版本命名",
+      "source": "user"
+    },
+    "horn_shape": {
+      "value": "参照用户原图：宽根逐渐收细的圆头锥形，保留轻微向前倾斜",
+      "source": "user"
+    },
+    "horn_shape_defaults": {
+      "value": {
+        "base_radius_mm": 4.8,
+        "axial_height_mm": 15,
+        "tip_round_radius_mm": 1.4,
+        "forward_lean_deg": 8,
+        "side_lean_deg": 5
+      },
+      "source": "default"
+    },
+    "dinosaur_foot_layout": {
+      "value": "扩大恐龙两条短腿之间的距离，让左右短腿宽度相等",
+      "source": "user"
+    },
+    "dinosaur_foot_layout_defaults": {
+      "value": {
+        "gap_mm": 16,
+        "left_width_mm": 10.96,
+        "right_width_mm": 10.96,
+        "gap_center_local_x_mm": 1.68
+      },
+      "source": "default"
+    },
+    "chair_leg_structure": {
+      "value": "四条椅腿根部先由薄平板连成一体，薄板嵌入座面底部；椅腿上细下粗",
+      "source": "user"
+    },
+    "chair_leg_structure_defaults": {
+      "value": {
+        "plate_width_mm": 64,
+        "plate_depth_mm": 49,
+        "plate_thickness_mm": 2.2,
+        "seat_pocket_depth_mm": 2,
+        "plate_bottom_z_mm": 30,
+        "leg_top_diameter_mm": 8.4,
+        "leg_bottom_diameter_mm": 11.2
+      },
+      "source": "default"
+    },
+    "groove_geometry_defaults": {
+      "value": {
+        "diameter_mm": 13.5,
+        "depth_mm": 4.5,
+        "pitch_mm": 15,
+        "rear_flat_platform_start_mm": 1.863961,
+        "groove_count": 2,
+        "middle_groove_rearward_shift_mm": 2
+      },
+      "source": "default"
+    },
+    "chair_leg_end_adjustment": {
+      "value": "椅子腿末端再粗一点点",
+      "source": "user"
+    },
+    "tail_refinement_priority": {
+      "value": "重点修改尾巴造型",
+      "source": "user"
+    },
+    "tail_refinement_defaults": {
+      "value": "保持向右延伸17mm及中段下凹1.3mm，尾身截面缓慢递减，尾尖圆润半径1.6mm，末端高度8.5mm",
+      "source": "default"
+    },
+    "dinosaur_insert_connection": {
+      "value": "恐龙两条短腿底面及底边不要圆角，腿部内外侧圆角连续接上脸与背部，插入椅子座面对应槽位",
+      "source": "user"
+    },
+    "dinosaur_insert_defaults": {
+      "value": {
+        "right_shift_mm": 3.3375,
+        "body_frame_x_mm": -1.9125,
+        "body_overall_center_x_mm": 0,
+        "foot_insert_depth_mm": 4,
+        "foot_width_mm": 10.96,
+        "foot_thickness_mm": 13,
+        "slot_width_mm": 11.36,
+        "slot_thickness_mm": 13.4,
+        "slot_depth_mm": 4.2,
+        "side_clearance_mm": 0.2,
+        "bottom_clearance_mm": 0.2,
+        "slot_centers_x_mm": [
+          -13.7125,
+          13.2475
+        ],
+        "slot_center_y_mm": 20.5,
+        "slot_to_last_phone_groove_gap_mm": 11.936039,
+        "solid_material_under_slot_mm": 4.8,
+        "foot_side_radius_mm": 1,
+        "slot_corner_radius_mm": 1.2
+      },
+      "source": "default"
+    },
+    "muzzle_side_face_outline": {
+      "value": "恐龙自身右侧脸颊最下面轮廓曲线的末端稍向下移，均匀过渡至最外侧边缘，承托鼻嘴并避开脸部圆角",
+      "source": "user"
+    },
+    "muzzle_side_face_defaults": {
+      "value": {
+        "outline_extra_mm": 1,
+        "lower_cheek_curve": "下移末端的椭圆弧，连续均匀接入最外侧脸颊，保留腿根折角",
+        "horizontal_silhouette_difference_mm": 2,
+        "recentering_shift_mm": 0.5,
+        "lower_cheek_end_drop_mm": 1.5,
+        "lower_cheek_end_world_z_mm": 46.5
+      },
+      "source": "default"
+    },
+    "seat_front_extension_mm": {
+      "value": 3,
+      "source": "user"
+    },
+    "seat_groove_positions": {
+      "value": "删除最里面（最靠近恐龙）的手机凹槽，原中间槽向里面移动一点，最外槽保持原位",
+      "source": "user"
+    },
+    "muzzle_flattening": {
+      "value": "鼻嘴压扁一点，整体调整比例",
+      "source": "user"
+    },
+    "muzzle_flattening_defaults": {
+      "value": {
+        "height_scale_from_v27": 0.95,
+        "height_mm": 25.011885,
+        "depth_reduction_mm": 11.25,
+        "depth_mm": 8.25,
+        "center_z_mm": 60.5059425,
+        "lower_edge_z_mm": 48,
+        "preserve_nostril_radius_mm": 0.9
+      },
+      "source": "default"
+    },
+    "seat_extension_defaults": {
+      "value": {
+        "depth_mm": 68,
+        "front_y_mm": -35.5,
+        "rear_y_mm": 32.5,
+        "groove_centers_y_mm": [
+          -19.5,
+          -4.5
+        ]
+      },
+      "source": "default"
+    },
+    "muzzle_current_thickness_defaults": {
+      "value": {
+        "total_depth_mm": 8.25,
+        "body_depth_parameter_mm": 13.25,
+        "central_bulge_mm": 2.5,
+        "uncut_total_depth_mm": 15.75,
+        "contact_plane_world_y_mm": 14
+      },
+      "source": "default"
+    },
+    "muzzle_end_shape_defaults": {
+      "value": {
+        "profile_power": 2.8,
+        "width_mm": 49.35,
+        "height_mm": 25.011885,
+        "depth_mm": 8.25,
+        "description": "增加端部截面，以圆弧收口替代尖收口，保留中央鼓起与鼻孔"
+      },
+      "source": "default"
+    },
+    "groove_diameter_increase_mm": {
+      "value": 1,
+      "source": "user"
+    },
+    "seat_side_rounding": {
+      "value": "座面四周侧面圆角扩大为此前3倍，只改侧面圆角",
+      "source": "user"
+    },
+    "seat_rounding_defaults": {
+      "value": {
+        "side_corner_radius_mm": 12,
+        "top_bottom_edge_radius_mm": 4
+      },
+      "source": "default"
+    },
+    "dinosaur_body_rounding": {
+      "value": "恐龙主体圆角缩小0.5mm，腿部侧面圆角连续接上脸和背的圆角，底部不用圆角",
+      "source": "user"
+    },
+    "horn_socket": {
+      "value": "填回头顶独角凹槽，恢复实心头顶",
+      "source": "user"
+    },
+    "crotch_position": {
+      "value": "腿根内侧裤裆位置往下移，与恐龙自身右脸最下沿齐平",
+      "source": "user"
+    },
+    "crotch_position_defaults": {
+      "value": {
+        "drop_mm": 1.5,
+        "crotch_outline_datum_world_z_mm": 46.5,
+        "right_cheek_outline_datum_world_z_mm": 46.5,
+        "foot_gap_mm": 16
+      },
+      "source": "default"
+    },
+    "dinosaur_foot_slot_rounding": {
+      "value": "椅子座面对应恐龙腿部的插槽也相应调整出圆角",
+      "source": "user"
+    },
+    "muzzle_boolean_trim": {
+      "value": "鼻嘴部分用布尔运算切掉埋在脸里的部分",
+      "source": "user"
+    },
+    "muzzle_trim_defaults": {
+      "value": {
+        "method": "以脸部接触平面作布尔差集裁去背面埋入部分",
+        "contact_plane_world_y_mm": 14,
+        "final_depth_mm": 8.25,
+        "face_contact_gap_mm": 0,
+        "shared_volume_mm3": 0
+      },
+      "source": "default"
+    },
+    "horn_boolean_trim": {
+      "value": "独角用布尔运算删除埋在头里的部分",
+      "source": "user"
+    },
+    "horn_trim_defaults": {
+      "value": {
+        "method": "按当前头部轮廓与R1圆角构造曲面刀具，布尔差集裁去独角埋入部分",
+        "head_reference_version": "v39",
+        "head_relative_position_in_horn_frame_mm": [
+          8,
+          7,
+          -56
+        ],
+        "contact_gap_mm": 0,
+        "shared_volume_mm3": 0,
+        "preserve_visible_shape_and_placement": true
+      },
+      "source": "default"
+    },
+    "spines_body_union": {
+      "value": "9个背刺与恐龙主体用布尔并集合并为一个实体",
+      "source": "user"
+    },
+    "eyes_boolean_trim": {
+      "value": "两只眼睛用布尔运算删除埋进脸里的部分",
+      "source": "user"
+    },
+    "eyes_trim_defaults": {
+      "value": {
+        "contact_plane_world_y_mm": 14,
+        "remaining_depth_mm": 0.65,
+        "contact_gap_mm": 0,
+        "preserve_positions_and_spacing": true,
+        "method": "同尺寸椭圆截面放样构造圆润眼睛，再按脸部平面布尔差集裁切"
+      },
+      "source": "default"
+    }
+  },
+  "open_questions": []
+}

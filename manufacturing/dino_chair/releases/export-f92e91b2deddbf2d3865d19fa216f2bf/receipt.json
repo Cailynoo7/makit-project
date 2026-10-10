@@ -1,0 +1,122 @@
+{
+  "designId": "dino_chair",
+  "revision": "ae4a2a3921676d0d8ae467d9679d20b964a964a43f4cbeb10a1cf890f8ab2b37",
+  "schemaVersion": 2,
+  "exportId": "export-f92e91b2deddbf2d3865d19fa216f2bf",
+  "generatedAt": "2026-10-10T14:25:08.391Z",
+  "designSha256": "8b72d2a407dd20031c9dfeaf83894e2ead7950bf0773faccd38ac4aa39a1dcd7",
+  "role": "phone_stand",
+  "stateHash": "86e0de1625bf07ce9a674c957c1e2f8fe69171649547ee9c8d5579b13b6b8122",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "dino_chair",
+    "role": "phone_stand",
+    "design": {
+      "revision": "ae4a2a3921676d0d8ae467d9679d20b964a964a43f4cbeb10a1cf890f8ab2b37",
+      "designSha256": "03665567fe23b3e9cf5680c6609b30cb5ca5033b9be76c3781ac3d3c07c9776b",
+      "manifestSha256": "1f6d1634af1c5bfa5a85f194eafabb5fc82f7d338c395e9e0d61bf1dd10ccb85",
+      "stepSha256": "71c806d297870bb43c22f20cc49b37402fbff278b6921dbcc419132aa894f1db",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/dino_chair/README.md",
+      "sha256": "0afd6f35fedfc93a0142403538d2c1955549af15e043bac5b8bca4b27efb1623"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "7d9b56afd18d5fd8717adfa3b381665d3c0ff9a75d1568ae5a120bc56d0f8ec7",
+      "designRequirementSha256": "d6aa3ba6b06f5ed7c05385f9c65331f9cb88c8419716a78a9d6df20039c975b2",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "reference_image",
+          "path": "product/references/uploads/20261010T011511061Z-1-image.png",
+          "sha256": "e18dfed2ce3bb079827e9717d823f0dbb49ea2e9da96832435d307a6e2c0c5b9",
+          "sizeBytes": 1899831
+        }
+      ]
+    },
+    "delivery": {
+      "target": "visual_review",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "86e0de1625bf07ce9a674c957c1e2f8fe69171649547ee9c8d5579b13b6b8122"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "1f6d1634af1c5bfa5a85f194eafabb5fc82f7d338c395e9e0d61bf1dd10ccb85",
+    "stepSha256": "71c806d297870bb43c22f20cc49b37402fbff278b6921dbcc419132aa894f1db"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "e2af1b0833add633b44719abaa1621ecf0dce13d9b71da057d1343cb112a1509"
+  },
+  "sourceHashes": {
+    "dino/dino": "1f3d570926aee929f84f7352295811794e968e23ff44cbf66d5b21bfff1d541c",
+    "eyes/eyes": "78d3d5f47ffdb15e7499828c101c078350fed3c91013f964bc3a5d99d5332a61",
+    "horn/horn": "6f38f22324a74eff040594c636ada4973315f31f4b2dce9cbb21aa9ef2f644db",
+    "legs/legs": "35895fcf933eb7fb5cc0a939b1d922cee7891eace82662f6885da508b0c27d23",
+    "muzzle/muzzle": "27a527e9dda31244a17afd9e9e5d9ec76e1de726e7e5d6ff020bad3f3cf27468",
+    "seat/seat": "3ecf283621fbc00063c2241bf202ea76fa2608bd2c438dcc2247a8a86d38ef24"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "dino": "0be19980863578952009d6056b5922346767d13135f779952da6987c8e330b05",
+    "eye_1": "e77b56346b83908b1e01e6f8d9097f4a3ffc776a47179c1e701471eb3db1e41c",
+    "eye_2": "031dab70885850758d18be6c066f2e3c26c36d010e2d9ed2b1140c6176db100e",
+    "horn": "a9926b4d7843f72dd1294b2a0ea0244976840a947097749526576c5013885640",
+    "leg_base": "da6643110b75963d101f8aff4a2bf52b55c4548c6b65bddadcb4d43a41b5ffe1",
+    "muzzle": "20da950837645b7d4d9051d30bc3063b420f296d4b67e742826fb87e65ba6923",
+    "seat": "4bf2ae4f8adb3651d92198c979d10d289c436a4d6e0587fe90dd78aa872ad8a4"
+  },
+  "runtime": {
+    "manifestHash": "8af55fe2bce837629aaf94ea1b6bc148222ee49cff95679cbb6ea6f6856e66a8",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "81911f3a8adaeb8d0c4be9c12da56f8c18df074c4680646de6b0a4fe8457a5cc"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/dino_chair/releases/export-f92e91b2deddbf2d3865d19fa216f2bf/model.step",
+      "role": "model/step",
+      "sha256": "71c806d297870bb43c22f20cc49b37402fbff278b6921dbcc419132aa894f1db",
+      "sizeBytes": 5925547
+    }
+  ],
+  "interference": {
+    "summary": "1 interfering pair",
+    "counts": {
+      "objects": 7,
+      "pairs": 21,
+      "exact": 4,
+      "cached": 2,
+      "interference": 1,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": [
+      {
+        "a": "leg_base",
+        "b": "seat",
+        "verdict": "declared",
+        "kind": "fused",
+        "reason": "四条腿先一体连接薄板，薄板嵌入座面底部，顶部0.2mm接入座面",
+        "maxDepthMm": 1.9479,
+        "volumeMm3": 625.654867
+      }
+    ]
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "e95a3c371df06b42fee46306e3e290b8",
+    "projectId": "9837c12f-614e-414c-905c-1ebff088af0d",
+    "receiptPath": "manufacturing/dino_chair/releases/export-f92e91b2deddbf2d3865d19fa216f2bf/receipt.json",
+    "payloadSha256": "7778a2503026448470990a9b9e0c875caa0eeb025b36543d9ea76cedaff9d522",
+    "mac": "b9d4c38c28c8870649a48471c23506806d600abbbd9fe4e61a10a016ec091967"
+  },
+  "status": "handoff"
+}

@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "seat",
+      "label": "seat",
+      "cells": [
+        {
+          "id": "seat",
+          "target": "seat",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/seat/000-seat.py",
+          "sha256": "3ecf283621fbc00063c2241bf202ea76fa2608bd2c438dcc2247a8a86d38ef24"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "legs",
+      "label": "legs",
+      "cells": [
+        {
+          "id": "legs",
+          "target": "legs",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/legs/000-legs.py",
+          "sha256": "35895fcf933eb7fb5cc0a939b1d922cee7891eace82662f6885da508b0c27d23"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dino",
+      "label": "dino",
+      "cells": [
+        {
+          "id": "dino",
+          "target": "dino",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/dino/000-dino.py",
+          "sha256": "1f3d570926aee929f84f7352295811794e968e23ff44cbf66d5b21bfff1d541c"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "muzzle",
+      "label": "muzzle",
+      "cells": [
+        {
+          "id": "muzzle",
+          "target": "muzzle",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/muzzle/000-muzzle.py",
+          "sha256": "27a527e9dda31244a17afd9e9e5d9ec76e1de726e7e5d6ff020bad3f3cf27468"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "eyes",
+      "label": "eyes",
+      "cells": [
+        {
+          "id": "eyes",
+          "target": "eyes",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/eyes/000-eyes.py",
+          "sha256": "78d3d5f47ffdb15e7499828c101c078350fed3c91013f964bc3a5d99d5332a61"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "horn",
+      "label": "horn",
+      "cells": [
+        {
+          "id": "horn",
+          "target": "horn",
+          "order": 0,
+          "path": "design/dino_chair/source/parts/horn/000-horn.py",
+          "sha256": "6f38f22324a74eff040594c636ada4973315f31f4b2dce9cbb21aa9ef2f644db"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "seat",
+      "target": "seat",
+      "label": "双槽座面与后端平面",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "4bf2ae4f8adb3651d92198c979d10d289c436a4d6e0587fe90dd78aa872ad8a4",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          35.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "leg_base",
+      "target": "legs",
+      "label": "四腿与嵌入薄板",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "da6643110b75963d101f8aff4a2bf52b55c4548c6b65bddadcb4d43a41b5ffe1",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dino",
+      "target": "dino",
+      "label": "恐龙主体与九枚背刺",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "0be19980863578952009d6056b5922346767d13135f779952da6987c8e330b05",
+      "transform": {
+        "positionMm": [
+          -1.9125,
+          27,
+          39
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "muzzle",
+      "target": "muzzle",
+      "label": "中央微鼓鼻嘴",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "20da950837645b7d4d9051d30bc3063b420f296d4b67e742826fb87e65ba6923",
+      "transform": {
+        "positionMm": [
+          -12.4125,
+          21.5,
+          60.5059425
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "eye_1",
+      "target": "eyes",
+      "label": "裁切深棕眼睛 1",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "e77b56346b83908b1e01e6f8d9097f4a3ffc776a47179c1e701471eb3db1e41c",
+      "transform": {
+        "positionMm": [
+          -7.9125,
+          13.9,
+          77.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "eye_2",
+      "target": "eyes",
+      "label": "裁切深棕眼睛 2",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "031dab70885850758d18be6c066f2e3c26c36d010e2d9ed2b1140c6176db100e",
+      "transform": {
+        "positionMm": [
+          -7.9125,
+          13.9,
+          77.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "horn",
+      "target": "horn",
+      "label": "参考图圆头锥形独角",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "a9926b4d7843f72dd1294b2a0ea0244976840a947097749526576c5013885640",
+      "transform": {
+        "positionMm": [
+          -9.9125,
+          20,
+          95
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [
+    {
+      "kind": "fused",
+      "reason": "四条腿先一体连接薄板，薄板嵌入座面底部，顶部0.2mm接入座面",
+      "a": "leg_base",
+      "b": "seat"
+    }
+  ],
+  "updatedAt": "2026-10-10T14:25:08.391Z",
+  "parameters": {
+    "seat": {
+      "seat_width": 80,
+      "seat_depth": 65,
+      "seat_thickness": 11,
+      "seat_rounding": 4,
+      "groove_radius": 6.75,
+      "groove_pitch": 13,
+      "groove_depth": 4.5,
+      "rear_platform_start": 12.5,
+      "seat_leg_plate_pocket_width": 64,
+      "seat_leg_plate_pocket_depth": 49,
+      "seat_leg_plate_pocket_height": 2,
+      "seat_leg_plate_pocket_rounding": 3,
+      "seat_dino_foot_width": 10.96,
+      "seat_dino_foot_thickness": 13,
+      "seat_dino_foot_gap": 16,
+      "seat_dino_frame_x": -1.9125,
+      "seat_dino_foot_center_y": 20.5,
+      "seat_dino_foot_mid_local_x": 1.68,
+      "seat_dino_slot_depth": 4.2,
+      "seat_dino_slot_side_clearance": 0.2,
+      "seat_front_extension": 3,
+      "groove_middle_rear_shift": 2,
+      "seat_side_rounding": 12,
+      "seat_dino_foot_side_radius": 1
+    },
+    "legs": {
+      "leg_height": 31,
+      "leg_radius": 5.6,
+      "leg_top_spacing_x": 54,
+      "leg_top_spacing_y": 39,
+      "leg_splay": 5,
+      "leg_end_rounding": 3,
+      "leg_top_radius": 4.2,
+      "leg_plate_width": 64,
+      "leg_plate_depth": 49,
+      "leg_plate_thickness": 2.2,
+      "leg_plate_rounding": 3,
+      "leg_plate_leg_overlap": 1
+    },
+    "dino": {
+      "dino_width": 48,
+      "dino_height": 58,
+      "dino_thickness": 13,
+      "dino_edge_radius": 1,
+      "dino_foot_gap": 16,
+      "dino_foot_gap_height": 9,
+      "tail_reach": 17,
+      "tail_root_radius": 5.6,
+      "tail_tip_height": 8.5,
+      "foot_gap_rounding": 1.2,
+      "tail_mid_dip": 1.3,
+      "tail_tip_round_radius": 1.6,
+      "dino_head_fullness": 1.2,
+      "dino_crown_rise": 18,
+      "muzzle_backing_width": 53.35,
+      "muzzle_backing_height": 30.011885,
+      "muzzle_backing_center_x": -9.5,
+      "muzzle_backing_center_z": 22.16415,
+      "muzzle_side_shoulder_inset": 1.5,
+      "dino_own_left_cheek_fullness": 3.8,
+      "dino_foot_insert_depth": 4,
+      "dino_seat_top_local_z": 2,
+      "muzzle_side_backing_extra": 1,
+      "muzzle_side_lower_cheek_drop": 1.5,
+      "spine_radius": 3.4,
+      "spine_length": 7.5,
+      "spine_tip_radius": 0.55,
+      "spine_rounding": 0.45,
+      "top_spine_height": 56.5,
+      "second_spine_height": 52.8,
+      "seventh_spine_scale": 0.7,
+      "tail_spine_1_height": 7.2,
+      "tail_spine_2_height": 6.8,
+      "tail_spine_1_x": 26,
+      "tail_spine_spacing": 6,
+      "spine_side_inset": 1.2
+    },
+    "muzzle": {
+      "muzzle_width": 49.35,
+      "muzzle_height": 22.538085,
+      "muzzle_depth": 13.25,
+      "nostril_radius": 0.9,
+      "nostril_spacing": 6,
+      "muzzle_vertical_bulge": 1.2369,
+      "muzzle_front_bulge": 2.5,
+      "muzzle_end_profile_power": 2.8,
+      "muzzle_face_contact_local_y": -7.5
+    },
+    "eyes": {
+      "eye_width": 3.6,
+      "eye_height": 4.4,
+      "eye_depth": 1.1,
+      "eye_spacing": 8,
+      "eye_left_shift": 1.2,
+      "eye_face_contact_local_y": 0.1
+    },
+    "horn": {
+      "horn_base_radius": 4.8,
+      "horn_height": 15,
+      "horn_tip_round_radius": 1.4,
+      "horn_forward_lean_deg": 8,
+      "horn_side_tip_offset": 1.3,
+      "horn_side_lean_deg": 5,
+      "horn_head_relative_x": 8,
+      "horn_head_relative_y": 7,
+      "horn_head_relative_z": -56
+    }
+  }
+}

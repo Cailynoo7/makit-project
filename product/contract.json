@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "visual_draft",
+  "summary": "按单张用户图片与110×80×68 mm目标复刻恐龙椅子手机支架",
+  "required_interfaces": [
+    {
+      "id": "chair_connections",
+      "kind": "internal_fit",
+      "description": "座面、四腿、靠背及装饰组成装配；9枚背刺与主体布尔合并为单一实体，独角、鼻嘴及两只眼睛布尔裁切后贴合头部，椅腿连接板与座面允许有意融合",
+      "source": "contract_interface",
+      "required": true
+    },
+    {
+      "id": "phone_grooves",
+      "kind": "internal_fit",
+      "description": "座面两道横向凹槽作为手机底边承托",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "reference_image",
+      "source": "user_requested",
+      "description": "用户提供的恐龙椅子单视角设计图",
+      "path": "product/references/uploads/20261010T011511061Z-1-image.png"
+    }
+  ],
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "phone_stand",
+        "design_id": "dino_chair",
+        "description": "完整恐龙椅子手机支架",
+        "delivery_target": "visual_review",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "chair_connections",
+          "phone_grooves"
+        ],
+        "reference_ids": [
+          "reference_image"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}
