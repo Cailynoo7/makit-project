@@ -1,5 +1,12 @@
 {
   "formatVersion": 4,
   "name": "动物椅子手机平板支架",
+  "summary": "恐龙椅子手机支架",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "QY G"
+    }
+  ],
   "artifacts": "rebuild"
 }
