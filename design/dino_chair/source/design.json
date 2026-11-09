@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "units": "mm",
-  "coordinateFrame": "replicator-world-z-up",
+  "coordinateFrame": "makit-world-z-up",
   "targets": [
     {
       "id": "seat",
@@ -95,7 +95,7 @@
       "label": "双槽座面与后端平面",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "2ff74099ad6b8bde891231430143edbf0fb865bbc837d4082897d49dcd3125f0",
+      "shapeHash": "14e6b611485dc3a73419e8297438887ee53c29cd4f1b6fac4c671a9b76037a4e",
       "transform": {
         "positionMm": [
           0,
@@ -122,7 +122,7 @@
       "label": "四腿与嵌入薄板",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "27d3b5610a3121322b8de59db7bc073baa6f3fbaa1540630ccc962105995d534",
+      "shapeHash": "8be8107f773d4d14ce533331c31bbcb7583dc4043f50526a621b617230205265",
       "transform": {
         "positionMm": [
           0,
@@ -149,7 +149,7 @@
       "label": "恐龙主体与九枚背刺",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "ff900c293d698d233a4dd5b47ca7a876d74df78d6c9117bb8f86d8ce0e0f8c07",
+      "shapeHash": "ed867b82431394cb98b8d312cb39d11bb9f229503c90485045181cd59ed9c303",
       "transform": {
         "positionMm": [
           -1.9125,
@@ -176,7 +176,7 @@
       "label": "中央微鼓鼻嘴",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "afdf3467e75a8a456509fb58d984adaf213e47eaeb31429f14cb79d4ee429cac",
+      "shapeHash": "12bc3a651176de9f053c3c665a348ed0fac482e454ecf4b201d866d99a5e1967",
       "transform": {
         "positionMm": [
           -12.4125,
@@ -203,7 +203,7 @@
       "label": "裁切深棕眼睛 1",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "364ca83a0e85b9351896833aef29fb9df06bfce794040efb297fe568c834a873",
+      "shapeHash": "46aaabfb94460c12e80439da58c0020784b01b5192015bf85a004760025e8cf0",
       "transform": {
         "positionMm": [
           -7.9125,
@@ -230,7 +230,7 @@
       "label": "裁切深棕眼睛 2",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "0906ac49835c91ad31de850b818f318d6e7af4bf77f830353718b7dadbdc3af6",
+      "shapeHash": "cb1979d4426173cb8f1d14053d472ad28091146933778a1a2ae1e3b3d75dca86",
       "transform": {
         "positionMm": [
           -7.9125,
@@ -257,7 +257,7 @@
       "label": "参考图圆头锥形独角",
       "material": "pla",
       "kind": "generated",
-      "shapeHash": "84ef4857acd42e4e61df39a69ed34f09f1117725b42f16b5a40b9fa2c322c926",
+      "shapeHash": "69401ce8750647c64b811628bde656823b38f8f6992ec27c3bfb05f9c54849fb",
       "transform": {
         "positionMm": [
           -9.9125,
@@ -288,7 +288,7 @@
       "b": "seat"
     }
   ],
-  "updatedAt": "2026-10-26T03:24:50.917Z",
+  "updatedAt": "2026-11-09T00:51:34.419Z",
   "parameters": {
     "seat": {
       "seat_width": 80,

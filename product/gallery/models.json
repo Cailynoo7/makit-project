@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "file": "models/dino_chair.glb",
+      "design": "dino_chair"
+    }
+  ]
+}
